@@ -35,7 +35,7 @@ const ContactSection = () => {
     }
 
     try {
-      const response = await fetch('http://localhost:5000/submit-podologia-form', {
+      const response = await fetch('https://podologia-backend.onrender.com/submit-podologia-form', { // linea (https://podologia-backend.onrender.com) y local (http://localhost:5000)
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
