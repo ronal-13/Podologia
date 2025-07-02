@@ -2,10 +2,11 @@
   "name": "podologia-app",
   "version": "1.0.0",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "dev": "react-scripts dev",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
   },
       "dependencies": {
             "autoprefixer": "^10.0.0",
